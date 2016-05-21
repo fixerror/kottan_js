@@ -17,3 +17,13 @@
 >>>>>&lt; li><a>Хабрахабр &lt;/a>
 
 >>>>&lt;/ul>
+
+
+## Склеротик HTML5
+#### [https://validator.w3.org/nu/](https://validator.w3.org/nu/)
+#### [https://developers.whatwg.org/content-models.html#content-models](https://developers.whatwg.org/content-models.html#content-models)
+#### [http://caniuse.com/](http://caniuse.com/)
+#### [https://github.com/sgentle/caniuse-cmd](https://github.com/sgentle/caniuse-cmd)
+#### [http://html.spec.whatwg.org](http://html.spec.whatwg.org)
+#### [http://html5doctor.com](http://html5doctor.com)
+#### [https://webref.ru/](https://webref.ru/)
