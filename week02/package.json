@@ -1,0 +1,18 @@
+{
+  "name": "static-server",
+  "version": "0.0.1",
+  "author": "Radchenko Aleksandr <radchenkoaas@gmail.com>",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-concat": "*",
+    "del": "*",
+    "browser-sync": "*",
+    "gulp-postcss": "*",
+    "gulp-sass":"*",
+    "autoprefixer":"*",
+    "cssnano":"*",
+    "event-stream":"*",
+    "graceful-fs":"*"
+
+  }
+}
