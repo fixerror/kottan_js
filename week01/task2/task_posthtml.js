@@ -4,7 +4,7 @@
 "use strict"
 const ph = require('posthtml'),
     fs = require('fs'),
-    inputFileHtml = fs.readFileSync('index.html', 'utf-8').split('\n');
+    inputFileHtml = fs.readFileSync('index.html', 'utf-8');
 const cutJS = /js-/
 const cutBootstrap = /col-(xs|sm|md|lg)?(-\w+)?-\d+/i
 
