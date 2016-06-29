@@ -56,7 +56,9 @@ class MyPromise extends Promise {
                     })
             }
             
-        })
+        }).catch(err=> {
+            console.log(err)
+        });
     }
 }
 
