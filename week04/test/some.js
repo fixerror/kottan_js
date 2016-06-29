@@ -5,19 +5,20 @@
 
 var assert = require("assert");
 let MyPromise = require("../index");
+var input = [new Promise(function(resolve) {
+    setTimeout(function () {
+        resolve(2)
+    },100);
 
+})];
 describe("Promise.some-test", function () {
-    specify("should accept a promise for an array", function() {
-      /*  var expected, input;
-
-        expected = [1, 2, 3];
-        input = Promise.resolve(expected);
-
+    specify("should some input promises array", function(done) {
         return MyPromise.some(input, 2).then(
             function(results) {
-                assert.deepEqual(results.length, 2);
+                assert.deepEqual(results, [1, 3]);
+                
             },
-            assert.fail
-        )*/
+            done()
+        );
     });
 });

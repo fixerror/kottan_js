@@ -42,7 +42,21 @@ class MyPromise extends Promise {
     }
 
     static some(input, start) {
-        //TODO: some()
+        let rezult = [];
+        let len = input.length;
+        
+        return new this((resolve, reject)=> {
+            for (let promise of input) {
+                   promise.then(value => {
+                       if(rezult.length !==start){
+                           rezult.push(value);
+                       }else{
+                           resolve(rezult);
+                       }
+                    })
+            }
+            
+        })
     }
 }
 
