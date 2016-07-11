@@ -6,7 +6,7 @@
 var assert = require("assert");
 let MyPromise = require("../index");
 
-describe("Promise.reduce-test", function() {
+describe("Promise.reduce-spec", function() {
     function reducer(prev, next) {
         let a = prev + next;
         return a;

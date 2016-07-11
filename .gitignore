@@ -50,3 +50,17 @@ crashlytics-build.properties
 week01/node_modules
 week02/node_modules
 
+node_modules/
+week01/task2/node_modules/
+week01/task2/task_posthtml-compiled.js
+week01/task2/task_posthtml-compiled.js.map
+week02/dev/
+week02/gulpfile-compiled.js
+week02/gulpfile-compiled.js.map
+week02/src/
+week03/task4/deepAssign-compiled.js
+week03/task4/deepAssign-compiled.js.map
+week04/node_modules
+week05/node_modules
+week06/node_modules
+

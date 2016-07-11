@@ -11,7 +11,7 @@ var input = [new Promise(function(resolve) {
     },100);
 
 })];
-describe("Promise.some-test", function () {
+describe("Promise.some-spec", function () {
     specify("should some input promises array", function(done) {
         return MyPromise.some(input, 2).then(
             function(results) {

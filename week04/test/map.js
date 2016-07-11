@@ -5,7 +5,7 @@
 
 var assert = require("assert");
 let MyPromise = require("../index");
-describe("Promise.map-test", function () {
+describe("Promise.map-spec", function () {
 
     function mapper(val) {
         return val * 2;
